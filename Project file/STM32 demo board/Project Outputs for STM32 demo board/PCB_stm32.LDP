@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Lenovo\Desktop\stm32最小系统\Project file\PCB_stm32.pcbdoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=pcb_stm32-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=pcb_stm32-slotholes.txt|DrillLayers=gtl,gbl

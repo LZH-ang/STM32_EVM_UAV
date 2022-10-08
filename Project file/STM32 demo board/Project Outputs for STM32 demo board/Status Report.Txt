@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [STM32 demo board.PrjPcb]
+   Generated File[PCB_stm32-RoundHoles.TXT]
+   Generated File[PCB_stm32-SlotHoles.TXT]
+   Generated File[PCB_stm32.LDP]
+   Generated File[PCB_stm32.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At обнГ 04:44:25 On 2022/7/28
