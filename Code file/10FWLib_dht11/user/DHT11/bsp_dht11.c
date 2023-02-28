@@ -10,7 +10,7 @@ static void DHT11_GPIO_Config(void)
 
     DHT11_Dout_DATA_APBxClock_FUN(DHT11_Dout_GPIO_CLK, ENABLE);	/*开启DHT11_Dout_GPIO_PORT的外设时钟*/
     GPIO_InitStructure.GPIO_Pin = DHT11_Dout_GPIO_PIN;	/*选择要控制的DHT11_Dout_GPIO_PORT引脚*/
-    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_OD;	/*设置引脚模式为开漏输出*/
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_OD;	/*设置引脚模式为通用开漏输出*/
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;	/*设置引脚速率为50MHz*/
     GPIO_Init(DHT11_Dout_GPIO_PORT, &GPIO_InitStructure);	/*调用库函数,初始化DHT11_Dout_GPIO_PORT*/
 }
