@@ -7,24 +7,24 @@
 #define 	ADC_NVIC_ENABLE				0
 #define 	ADC_DMA_ENABLE				1
 
-// ADC ±àºÅÑ¡Ôñ
-// ¿ÉÒÔÊÇ ADC1/2£¬Èç¹ûÊ¹ÓÃADC3£¬ÖĞ¶ÏÏà¹ØµÄÒª¸Ä³ÉADC3µÄ
+// ADC ç¼–å·é€‰æ‹©
+// å¯ä»¥æ˜¯ ADC1/2ï¼Œå¦‚æœä½¿ç”¨ADC3ï¼Œä¸­æ–­ç›¸å…³çš„è¦æ”¹æˆADC3çš„
 #define		ADC_APBxClock_FUN        	RCC_APB2PeriphClockCmd
 #define		ADC_x                    	ADC1
 #define		ADC_CLK                  	RCC_APB2Periph_ADC1
-// ADC GPIOºê¶¨Òå
-// ×¢Òâ£ºÓÃ×÷ADC²É¼¯µÄIO±ØĞëÃ»ÓĞ¸´ÓÃ£¬·ñÔò²É¼¯µçÑ¹»áÓĞÓ°Ïì
+// ADC GPIOå®å®šä¹‰
+// æ³¨æ„ï¼šç”¨ä½œADCé‡‡é›†çš„IOå¿…é¡»æ²¡æœ‰å¤ç”¨ï¼Œå¦åˆ™é‡‡é›†ç”µå‹ä¼šæœ‰å½±å“
 #define		ADC_GPIO_APBxClock_FUN    	RCC_APB2PeriphClockCmd
 #define		ADC_GPIO_CLK             	RCC_APB2Periph_GPIOA
 #define		ADC_PORT                   	GPIOA
 #define		ADC_PIN                   	GPIO_Pin_2
-// ADC Í¨µÀºê¶¨Òå
+// ADC é€šé“å®å®šä¹‰
 #define		ADC_CHANNEL               	ADC_Channel_2
-#define    	ADC_DMA_CHANNEL           	DMA1_Channel2
+#define    	ADC_DMA_CHANNEL           	DMA1_Channel1
 #define		ADC_NBROFCHANNEL			1
 #define		ADC_SAMPLETIME				ADC_SampleTime_28Cycles5
 #define 	ADC_RCC						RCC_PCLK2_Div6
-// ADC ÖĞ¶ÏÏà¹Øºê¶¨Òå
+// ADC ä¸­æ–­ç›¸å…³å®å®šä¹‰
 #define		ADC_IRQ                    	ADC1_2_IRQn
 #define		ADC_IRQHandler             	ADC1_2_IRQHandler
 
